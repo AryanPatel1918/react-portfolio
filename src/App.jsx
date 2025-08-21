@@ -5,10 +5,11 @@ import Navbar from './components/Navbar/Navbar'
 
 
 export default function App() {
-  const [count, setCount] = useState(0)
+  
+
 
   return (
-    <div className={styles.app}>
+    <div className={styles.App}>
       <Navbar />
     </div>
   )
