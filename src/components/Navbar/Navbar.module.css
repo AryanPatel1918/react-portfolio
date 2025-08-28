@@ -19,6 +19,12 @@
 
 .menu {
     display: flex;
+    cursor: pointer;
+}
+
+.menuBtn {
+    display: none;
+    cursor: pointer;
 }
 
 .menuItems {
@@ -51,7 +57,7 @@
 
     .menuBtn {
         display: block;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
 
     .menuItems {
