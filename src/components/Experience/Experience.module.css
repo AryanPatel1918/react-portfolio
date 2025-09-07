@@ -32,11 +32,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 11px;
+    gap: 8px;
 }
 
 .skillImageContainer {
-    background-color: var(--color-secondary);
+    background-color: #214587;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@
 .skill p {
     font-size: 20px;
     font-family: var(--font-roboto);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .history {
@@ -68,7 +68,7 @@
     align-items: center;
     gap: 17px;
     background: #19376d; /* In case the gradient below doesn't work */
-    background: linear-gradient(to right, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    background: linear-gradient(to right, #214587 0%, rgba(25, 55, 109, 0) 100%);
     border-radius: 10px;
     padding: 24px;
 }
@@ -82,7 +82,7 @@
 }
 
 .historyItemDetails h3 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
 }
 
