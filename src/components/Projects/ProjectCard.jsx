@@ -1,5 +1,5 @@
 export default function ProjectCard({ project }) {
-    const { imageSrc, title, description, skills, demo, source } = project  
+  const { imageSrc, title, description, skills, demo, source } = project  
 
   return (
     <div>
