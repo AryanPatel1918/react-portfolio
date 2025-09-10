@@ -117,7 +117,13 @@
     .content {
         align-items: center;
     }
+    .title {
+        font-size: 50px;
+    }
     .description {
         text-align: center;
+    }
+    .heroImg {
+        width: 300px;
     }
 }
