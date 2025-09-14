@@ -6,6 +6,8 @@ import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
+import Education from './components/Education/Education'
 
 export default function App() {
   
@@ -14,8 +16,10 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
       <Experience />
       <Projects />
+      <Contact />
    </div>
   )
 }
