@@ -20,7 +20,6 @@
 
 .menu {
     display: flex;
-    cursor: pointer;
 }
 
 .menuBtn {
@@ -30,7 +29,7 @@
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 40px;
     list-style: none;
 }
 
@@ -40,7 +39,7 @@
     text-decoration: none;   
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1080px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;

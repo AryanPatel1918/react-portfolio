@@ -6,7 +6,9 @@
     border-radius: 15px;
     padding: 76px;
     z-index: 1;
-    margin: 0 10%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .title {
@@ -65,6 +67,12 @@
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 0;
+        margin-top: 70px;
+    }
+
+    .title {
+        font-size: 30px;
     }
 
     .content {
@@ -85,7 +93,7 @@
     }
 
     .aboutItem h3 {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 600;
     }
 

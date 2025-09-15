@@ -15,11 +15,21 @@
 }
 
 .projects {
-    margin-top: 37px;
+    margin-top: 29px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     gap: 15px;
     width: 100%;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        margin-top: 40px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
 }
