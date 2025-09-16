@@ -14,8 +14,14 @@ export default function ProjectCard({ project }) {
         ))}
       </ul>
       <div className={styles.links}>
-        <a className={styles.link} href={demo} target="_blank">Demo</a>
-        <a className={styles.link} href={source} target="_blank">Source</a>
+        <a className={styles.link} href={demo} target="_blank">
+          <img src="/assets/projects/globe.png" alt="Globe icon" />
+          Source
+        </a>
+        <a className={styles.link} href={source} target="_blank">
+          <img src="/assets/projects/github.png" alt="Github icon" />
+          Demo
+        </a>
       </div>
     </div>
   )
